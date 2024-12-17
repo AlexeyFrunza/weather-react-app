@@ -1,0 +1,15 @@
+@use '@styles/variables' as *;
+@use '@styles/mixins' as *;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: $secondary-color;
+}
+
+.heading {
+  @include text;
+  font-weight: 800;
+}

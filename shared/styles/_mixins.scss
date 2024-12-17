@@ -1,0 +1,11 @@
+@use './variables' as *;
+
+@mixin text {
+  font-family: $font;
+  color: $primary-color;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
